@@ -5,7 +5,7 @@
  */
 body {
   padding-top: 56px;
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Crimson Text', serif;
 }
 
 .jumbotron {
@@ -27,9 +27,27 @@ body {
 }
 
 #property-input {
-  background-color: rgba(128, 128, 128, 0.214);
-  background-size: inherit;
+  text-align: left;
   background-clip: content-box;
-  border-radius: 20px;
-  text-align: center;
+  background-color: rgba(128, 128, 128, 0.214);
 }
+
+dd  {
+  background-clip: content-box;
+}
+
+.navbar-brand {
+  font-size: 25px;
+}
+
+.phone {
+  font-size: 20px;
+}
+
+.listings {
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 3%;
+  margin-top: 0%;
+}
+
