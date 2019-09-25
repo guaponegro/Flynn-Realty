@@ -24,6 +24,7 @@ body {
 
 .card-title {
   text-decoration: underline;
+  font-size: 22px;
 }
 
 #property-input {
@@ -34,6 +35,7 @@ body {
 
 dd  {
   background-clip: content-box;
+  font-size: 17px;
 }
 
 .navbar-brand {
@@ -51,3 +53,9 @@ dd  {
   margin-top: 0%;
 }
 
+dt {
+  font-size: 19px;
+}
+.btn {
+  font-size: 19px;
+}
