@@ -1,11 +1,7 @@
-/*!
- * Start Bootstrap - Heroic Features (https://startbootstrap.com/template-overviews/heroic-features)
- * Copyright 2013-2019 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-heroic-features/blob/master/LICENSE)
- */
+
 body {
   padding-top: 56px;
-  font-family: Alfa Slab One, cursive;
+  font-family: Alfa Slab One, serif;
 }
 
 .jumbotron {
@@ -25,17 +21,19 @@ body {
 .card-title {
   text-decoration: underline;
   font-size: 22px;
+  color: #343a40;
 }
 
 #property-input {
-  text-align: left;
+  text-align: center;
   background-clip: content-box;
   background-color: rgba(128, 128, 128, 0.214);
 }
 
 dd  {
   background-clip: content-box;
-  font-size: 17px;
+  font-size: 15px;
+  color: #343a40;
 }
 
 .navbar-brand {
@@ -56,6 +54,7 @@ dd  {
 
 dt {
   font-size: 19px;
+  color: #343a40;
 }
 
 .btn {
