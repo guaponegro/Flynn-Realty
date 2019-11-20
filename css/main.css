@@ -1,5 +1,9 @@
 
-
+.return-home-btn {
+  color: #343a40;
+  margin-left: 25px;
+  text-decoration: underline;
+}
 
 
 /*//////////////////////////////////////////////////////////////////
@@ -168,7 +172,7 @@ iframe {
   display: block;
   font-family: JosefinSans-Bold;
   font-size: 30px;
-  color: #333333;
+  color: #343a40;
   line-height: 1.2;
   text-align: left;
   padding-bottom: 30px;
