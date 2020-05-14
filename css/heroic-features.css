@@ -1,67 +1,123 @@
 
+/*! Custom CSS Sheet */
+
 body {
-  padding-top: 56px;
-  font-family: Alfa Slab One, serif;
+  font-family: 'Crimson Text', serif;
+}
+
+.navbar {
+  margin-bottom: 1%;
+  font-style: italic;
+}
+
+.mainContainer {
+  margin: 2%;
 }
 
 .jumbotron {
-  background-image: url(http://www.urbis-realestate.com/wp-content/uploads/2016/08/_0_cg_northmiamibeach.jpg);
+  background-image: url("images/jumbotronMiamiBeach.jpg");
   background-size: cover;
   color: white;
+  margin-bottom: 1%;
+  font-style: italic;
 }
 
-.card-body {
-  text-align: left;
-}
-
-.card-text {
-  margin-left: 7px;
-}
-
-.card-title {
-  text-decoration: underline;
-  font-size: 22px;
-  color: #343a40;
-}
-
-#property-input {
-  text-align: center;
-  background-clip: content-box;
-  background-color: rgba(128, 128, 128, 0.214);
-}
-
-dd  {
-  background-clip: content-box;
-  font-size: 15px;
-  color: #343a40;
-}
-
-.navbar-brand {
-  font-size: 25px;
+.jumbotron-fluid {
+  background: white;
 }
 
 .phone {
   font-size: 20px;
+  color: white;
 }
 
 .listings {
   text-align: center;
   text-decoration: underline;
-  margin-bottom: 3%;
-  margin-top: 0%;
-  color: #343a40;
+  margin-bottom: 1%;
+  margin-top: 1%;
+}
+
+.card-body {
+  text-align: left;
+  padding: 4%;
+}
+
+/* .card-text {
+  margin-left: 7px;
+} */
+
+.card-title {
+  text-decoration: underline;
+  font-size: 22px;
+}
+
+#property-input {
+  font-size: 13px;
+  text-align: center;
+  background-color: rgba(50, 49, 49, 0.214);
+  border-radius: 25px;
+}
+
+dd  {
+  background-clip: content-box;
+  font-size: 17px;
 }
 
 dt {
-  font-size: 19px;
-  color: #343a40;
+  font-size: 16px;
 }
 
 .btn {
   font-size: 19px;
 }
 
-.col-lg-4 {
-  border-style: hidden;
-  border-width: 15px;
+.footer {
+  margin-top: 10%;
+}
+
+.modalAddressDetails {
+  margin: 5%;
+}
+
+.spacer {
+  margin: 1%;
+}
+
+.carousel-item {
+  size: 50%;
+}
+
+.section-header {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.listingBlocks {
+  margin: .50%;
+}
+
+.allListingBlocks {
+  margin: .50%;
+}
+
+.tableDetails {
+  font-size: 20px;
+}
+
+h3 {
+  margin: .05%;
+}
+
+.column-color {
+  background-color: rgba(34,34,34,0.5);
+}
+
+.headshot {
+  margin-top: 23px;
+  margin-left: 8px;
+}
+
+.jumbotron-header-text {
+  color: black;
 }
